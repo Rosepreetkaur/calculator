@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STANDARD CALCULATOR</title>
+    <style>
+        body {
+            background-color:pink;
+            margin: 0px auto;
+        }
+        .calcbody
+        {
+            background:darkgray;
+            border:2px solid rosybrown;
+            padding:10px;
+            margin-left:450px;
+            min-width: 26em;
+            max-width: 26em;
+        }
+        h1{
+            text-align:center;
+            font-size:40px;
+            color:white;
+        }
+        #cd2 {
+            text-align:right;
+            width: 22.6em;
+            height:40px;
+            font-size:18px;
+        }
+        #cd1
+        {
+            text-align:right;
+            width: 22.6em;
+            height:40px;
+            font-size:18px;
+        }
+            
+        button
+        {
+            background-color:white;
+            width:80px;
+            height:60px;
+            font-size:20px;
+            border:1px solid royalblue;
+        }
+        button:hover
+        {
+            background-color:yellow;
+        }
+         </style>
+
+</head>
+<body>
+    <h1>STANDARD CALCULATOR</h1>
+    <div class="calcbody">
+        <form name="cdform">
+
+            <input id="cd1" name="lcdsu" type="text" value=""/>
+            <input id="cd2" name="lcds" type="text" value="0"/>
+            </form>
+            <div id="calcbutton">
+                <button id="num1" onclick="numone();">1</button>
+                <button id="num2" onclick="numtwo();">2</button>
+                <button id="num3" onclick="numthree();">3</button>
+                <button id="operationplus" onclick="operationplus()";>+</button>
+                <button id="allclear" onclick="clear()";>AC</button>
+
+
+                        <button id="num4" onclick="numfour();">4</button>
+                        <button id="num5" onclick="numfive();">5</button>
+                        <button id="num6" onclick="numsix();">6</button>
+                                <button id="operationminus" onclick="operationminus()";>-</button>
+                                <button id="decimal" onclick="decimal()";>.</button>
+
+                                <button id="num7">7</button>
+                                <button id="num8" onclick="numeight();">8</button>
+                                <button id="num9" onclick="numnine();">9</button>
+                                <button id="operationraistop" onclick="operationraistop()";>^</button>
+                                <button id="operationperc" onclick="operationperc()";>%</button>
+
+                                <button id="operationmult" onclick="operationmult()";>*</button>
+                                <button id="num0" onclick="numzero()";>0</button> 
+                                <button id="num00" onclick="numzerozero()";>00</button> 
+                                <button id="remainder" onclick="remainder()";>/</button> 
+                             <button id="submit" onclick="equalto()";>=</button>
+                                
+                                
+            </div>
+    
+    <style></style>
+    
+</body>
+</html>
